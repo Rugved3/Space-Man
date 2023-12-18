@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPACEMAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://s.mlcdn.co/animate.css">
+    <script language="javascript" type="text/javascript" src="p5.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <!-- uncomment lines below to include extra p5 libraries -->
+    <!--<script language="javascript" src="libraries/p5.dom.js"></script>-->
+    <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+    <!-- this line removes any default padding and style. you might only need one of these values set. -->
+    <!-- <style> body {padding: 0; margin: 0;} </style> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="animated zoomIn">¡SPACEMAN!</h1>
+        <h3 class="animated zoomIn">Answer the questions correctly or the man may die.</h3>
+
+        <div class="animated rotateInUpLeft" id="quizSection">
+            <h3 id="headerText">Directions</h3>
+            <div id="quizContent">
+                <h3 id="prompt"></h3>
+                <div class="answers">
+                </div>
+
+                <div class='animated flash' id="instructions">
+                    <p>Answer the trivia questions. Each correct answer results in good vibes and no extra drawn body parts. Each incorrect answer gets the stick figure man one step closer to oblivion. If you answer 7 questions correctly, you win! Answer
+                        well, my friends! This is a one person game, but can be played cooperatively as a team. <br><br>Are you ready? Click the button if you're ready.</p>
+                </div>
+
+                <button class='animated infinite pulse' id="nextQ">Start Game</button>
+                <div id="tally"></div>
+            </div>
+
+        </div>
+
+        <div class="animated rotateInUpRight" id="sketchHolder"></div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="main.js" type="text/javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+footer {
+    float: clear;
+}
+
+.container {
+    width: 94%;
+}
+
+h1,
+h3 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    border: 0;
+}
+
+#prompt {
+    font-size: 90%;
+}
+
+#quizSection {
+    vertical-align: middle;
+    float: left;
+    max-width: 48%;
+    position: relative;
+    width: 600px;
+    height: 460px;
+    border: 3px solid #000000;
+}
+
+img {
+    margin-left: 6em;
+    max-width: 90%;
+    display: block;
+}
+
+canvas {
+    max-width: 100%;
+}
+
+#sketchHolder {
+    float: right;
+    max-width: 48%;
+    /*position: relative;
+  right: 200px;*/
+    /*border: 1px solid black;*/
+}
+
+li {
+    list-style-type: none;
+}
+
+#nextQ,
+#startOver {
+    /*centers these elements*/
+    height: 40px;
+    width: 100px;
+    margin: -20px -50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    bottom: -60px;
+}
+
+.selectors {
+    padding-top: 5px;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 150%;
+    font-size: 70%;
+}
+
+#tally {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: bold;
+}
+
+.answers {
+    padding: 15px;
+}
+
+#instructions {
+    padding: 1em;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 70%;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 980px) {
+    #quizSection,
+    #sketchHolder {
+        max-width: 100%;
+        float: none;
+    }
+}
